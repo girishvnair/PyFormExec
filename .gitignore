@@ -1,0 +1,29 @@
+# Ignore Node.js dependencies
+frontend/node_modules/
+
+# Ignore Python cache files
+backend/__pycache__/
+backend/*.pyc
+
+# Ignore IDE-related files
+.idea/
+.vscode/
+
+# Ignore build artifacts
+frontend/build/
+backend/*.log
+
+# Ignore temporary or backup files
+*.tmp
+*.bak
+*.swp
+
+# Ignore environment variable files
+.env
+
+# Ignore Docker artifacts
+*.env
+*.dockerfile
+
+# Ignore output files
+output.txt

@@ -1,0 +1,83 @@
+.dynamic-form {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.dynamic-form .form-field {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.dynamic-form .form-field label {
+  margin-right: 10px;
+  min-width: 100px;
+}
+
+.dynamic-form .form-field input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.dynamic-form .form-actions button {
+  margin-right: 10px;
+}
+
+pre {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.markdown-viewer {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.markdown-viewer textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+
+.markdown-viewer .rendered-markdown {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: auto;
+}
+.graph-viewer {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.graph-viewer .form-field {
+  margin-bottom: 10px;
+}
+
+.graph-viewer .form-field label {
+  display: block;
+  font-weight: bold;
+}
+
+.graph-viewer .form-field input,
+.graph-viewer .form-field select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.graph-viewer .graph-result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.graph-viewer .graph-result img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

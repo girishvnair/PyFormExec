@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Saved Form</title>
+    <script>
+        const formConfig = [{'type': 'text', 'label': 'Name', 'placeholder': 'Enter your name'}];
+
+        function createForm() {
+            const form = document.getElementById("dynamicForm");
+            formConfig.forEach(field => {
+                const wrapper = document.createElement("div");
+                const label = document.createElement("label");
+                label.textContent = field.label;
+
+                const input = document.createElement(field.type === "textarea" ? "textarea" : "input");
+                input.type = field.type;
+                input.placeholder = field.placeholder;
+
+                wrapper.appendChild(label);
+                wrapper.appendChild(input);
+                form.appendChild(wrapper);
+            });
+        }
+
+        window.onload = createForm;
+    </script>
+</head>
+<body>
+    <h1>Saved Form</h1>
+    <form id="dynamicForm"></form>
+</body>
+</html>
